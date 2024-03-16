@@ -1,0 +1,14 @@
+<div class="flex gap-2 flex-wrap py-2">
+    <button mat-fab extended color="primary" (click)="openSuperheroEvent.emit({mode: actionMode.CREATE , superhero:superhero})">
+    <span>Crear</span>
+    <mat-icon>add</mat-icon>
+  </button>
+  <button mat-fab extended color="primary" (click)="openSuperheroEvent.emit({mode: actionMode.EDIT , superhero:superhero})">
+    <span>Editar</span>
+    <mat-icon>edit</mat-icon>
+  </button>
+  <button mat-fab extended color="warn" (click)="deleteSuperheroEvent.emit(superhero)">
+    <span>Borrar</span>
+    <mat-icon>delete</mat-icon>
+  </button>
+  </div>

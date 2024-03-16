@@ -1,0 +1,14 @@
+.mat-mdc-form-field {
+  font-size: 14px;
+  width: 100%;
+}
+
+.superhero {
+  &__name {
+    text-decoration: underline;
+
+    &:hover {
+      color: blue;
+    }
+  }
+}
